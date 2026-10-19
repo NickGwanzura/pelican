@@ -5,7 +5,7 @@ import { company } from "@/data/site";
 function CompanyLogo() {
   return (
     <span className="brand-logo-frame">
-      <Image className="brand-logo-image" src="/images/brand/pelican-creek-logo.png" alt="" width={1280} height={853} />
+      <Image className="brand-logo-image" src="/images/brand/pelican-creek-logo-transparent.png" alt="" width={1536} height={1024} />
     </span>
   );
 }
