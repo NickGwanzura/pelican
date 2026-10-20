@@ -17,9 +17,19 @@ export const metadata: Metadata = {
     siteName: "Pelican Creek Realty",
     title: "Pelican Creek Realty | Property in Zimbabwe",
     description: "Harare-based property development and investment shaped by local partnerships and long-term value.",
-    ...(siteUrl ? { images: ["/images/nyeredzi-artist-impression.jpg"] } : {}),
+    images: [
+      {
+        url: "/images/brand/pelican-creek-logo.png",
+        width: 1280,
+        height: 853,
+        alt: "Pelican Creek Realty",
+      },
+    ],
   },
-  twitter: { card: "summary_large_image" },
+  twitter: {
+    card: "summary_large_image",
+    images: ["/images/brand/pelican-creek-logo.png"],
+  },
 };
 
 export const viewport: Viewport = { themeColor: "#ffffff" };
@@ -39,6 +49,7 @@ export default function RootLayout({
               "@type": "Organization",
               name: "Pelican Creek Realty Pvt Ltd",
               url: siteUrl,
+              logo: new URL("/images/brand/pelican-creek-logo.png", siteUrl).toString(),
               email: "hello@pelicancreekrealty.com",
               address: { "@type": "PostalAddress", addressLocality: "Harare", addressCountry: "ZW" },
             }).replace(/</g, "\\u003c"),
