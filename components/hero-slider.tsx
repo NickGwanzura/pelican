@@ -39,15 +39,6 @@ export default function HeroSlider({ slides }: { slides: Slide[] }) {
             quality={70}
             sizes="(max-width: 760px) 100vw, 55vw"
           />
-          <svg className="parcel-mark" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
-            <path pathLength="1" d="M19 18 L77 12 L89 37 L83 81 L28 88 L13 52 Z" />
-            <circle cx="19" cy="18" r="1.2" />
-            <circle cx="77" cy="12" r="1.2" />
-            <circle cx="89" cy="37" r="1.2" />
-            <circle cx="83" cy="81" r="1.2" />
-            <circle cx="28" cy="88" r="1.2" />
-            <circle cx="13" cy="52" r="1.2" />
-          </svg>
         </div>
         <div className="hero-bottom">
           <div className="slide-caption" aria-live="polite">

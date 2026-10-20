@@ -1,7 +1,7 @@
 export const company = {
   name: "Pelican Creek Realty",
   legalName: "Pelican Creek Realty Pvt Ltd",
-  email: "hello@pelicancreekrealty.co.zw",
+  email: "hello@pelicancreekrealty.com",
   location: "Harare, Zimbabwe",
   description:
     "A Zimbabwean property development and investment company creating considered homes and lasting value.",

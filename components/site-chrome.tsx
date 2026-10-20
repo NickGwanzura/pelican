@@ -33,6 +33,14 @@ export function SiteHeader({ projectPage = false }: { projectPage?: boolean }) {
   );
 }
 
+export function DeveloperTag() {
+  return (
+    <a className="developer-tag" href="https://spiritusglobal.tech/" target="_blank" rel="noopener">
+      <span>Developed by</span> <b>SPIRITUS</b> <i aria-hidden="true">↗</i>
+    </a>
+  );
+}
+
 export function SiteFooter() {
   return (
     <footer className="site-footer">
@@ -43,7 +51,7 @@ export function SiteFooter() {
           <span>GENERAL ENQUIRIES</span>
           <a href={`mailto:${company.email}`}>{company.email} <span aria-hidden="true">↗</span></a>
         </div>
-        <div className="footer-endline"><span>{company.location}</span><span>© {new Date().getFullYear()} Pelican Creek Realty Pvt Ltd</span></div>
+        <div className="footer-endline"><span>{company.location}</span><DeveloperTag /><span>© {new Date().getFullYear()} Pelican Creek Realty Pvt Ltd</span></div>
       </div>
     </footer>
   );

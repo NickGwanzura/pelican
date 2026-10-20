@@ -52,7 +52,7 @@ export default function NyeredziRidgePage() {
           <div>
             <p>The Nyeredzi Ridge House is planned as a four-bedroom, single-storey home with 186 square metres of internal area on a 550 square metre stand in Harare.</p>
             <p>The development is in progress. The image above is an artist’s impression; contact Pelican Creek Realty for current design and construction details.</p>
-            <a href="mailto:hello@pelicancreekrealty.co.zw?subject=Nyeredzi%20Ridge%20House%20enquiry">Enquire about this home ↗</a>
+            <a href="mailto:hello@pelicancreekrealty.com?subject=Nyeredzi%20Ridge%20House%20enquiry">Enquire about this home ↗</a>
           </div>
         </section>
       </main>

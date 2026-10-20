@@ -1,4 +1,3 @@
-import ComingSoon from "@/components/coming-soon";
 import Image from "next/image";
 import Link from "next/link";
 import HeroSlider from "@/components/hero-slider";
@@ -123,11 +122,6 @@ function LiveHome() {
 }
 
 
-export const dynamic = "force-dynamic";
-
-const COMING_SOON_UNTIL = Date.parse("2026-10-21T06:44:42Z");
-
 export default function Home() {
-  if (Date.now() < COMING_SOON_UNTIL) return <ComingSoon />;
   return <LiveHome />;
 }

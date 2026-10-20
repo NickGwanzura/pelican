@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { company } from "@/data/site";
 import ComingSoonCountdown from "./coming-soon-countdown";
+import { DeveloperTag } from "./site-chrome";
 import styles from "./coming-soon.module.css";
 
 export default function ComingSoon() {
@@ -57,6 +58,7 @@ export default function ComingSoon() {
       <footer className={styles.footer}>
         <span>PELICAN CREEK REALTY PVT LTD</span>
         <span>HARARE, ZIMBABWE</span>
+        <DeveloperTag />
         <a href={`mailto:${company.email}`}>{company.email}</a>
       </footer>
     </main>

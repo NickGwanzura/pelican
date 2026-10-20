@@ -85,16 +85,16 @@
   margin: 0;
   max-width: 720px;
   font-family: var(--display);
-  font-size: clamp(58px, 6.2vw, 100px);
-  font-weight: 400;
+  font-size: clamp(44px, 5vw, 80px);
+  font-weight: 300;
   line-height: .99;
-  letter-spacing: -.025em;
+  letter-spacing: -.03em;
 }
 
 .copy h1 em {
   color: var(--gold);
-  font-style: italic;
-  font-weight: 400;
+  font-style: normal;
+  font-weight: 300;
 }
 
 .intro {
@@ -140,8 +140,8 @@
 }
 
 .launch :global(.coming-countdown strong) {
-  font: 400 clamp(40px, 5vw, 70px)/1 var(--display);
-  letter-spacing: -.07em;
+  font: 300 clamp(36px, 4.4vw, 60px)/1 var(--display);
+  letter-spacing: -.04em;
   font-variant-numeric: tabular-nums;
 }
 
@@ -253,7 +253,7 @@
   }
 
   .copy h1 {
-    font-size: clamp(52px, 6vw, 70px);
+    font-size: clamp(40px, 4.8vw, 56px);
   }
 }
 
@@ -306,7 +306,7 @@
   }
 
   .copy h1 {
-    font-size: clamp(46px, 10vw, 68px);
+    font-size: clamp(34px, 9vw, 50px);
   }
 
   .intro {

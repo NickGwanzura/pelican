@@ -2,7 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { company } from "@/data/site";
 import "./globals.css";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL;
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://pelicancreekrealty.com";
 
 export const metadata: Metadata = {
   ...(siteUrl ? { metadataBase: new URL(siteUrl), alternates: { canonical: "/" } } : {}),
@@ -38,7 +38,8 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "Organization",
               name: "Pelican Creek Realty Pvt Ltd",
-              email: "hello@pelicancreekrealty.co.zw",
+              url: siteUrl,
+              email: "hello@pelicancreekrealty.com",
               address: { "@type": "PostalAddress", addressLocality: "Harare", addressCountry: "ZW" },
             }).replace(/</g, "\\u003c"),
           }}
