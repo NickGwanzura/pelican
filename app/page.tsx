@@ -111,7 +111,7 @@ function LiveHome() {
             </div>
             <div className="contact-side">
               <p>Have land, a project idea or an interest in the Nyeredzi Ridge home? We’d be glad to hear from you.</p>
-              <a className="button-light" href={`mailto:${company.email}`}>Talk with our team <span aria-hidden="true">↗</span></a>
+              <a className="button-dark" href={`mailto:${company.email}`}>Talk with our team <span aria-hidden="true">↗</span></a>
               <a className="contact-email" href={`mailto:${company.email}`}>{company.email}</a>
             </div>
           </div>

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   robots: { index: false, follow: true },
 };
 
-export const viewport: Viewport = { themeColor: "#f6f7f1" };
+export const viewport: Viewport = { themeColor: "#ffffff" };
 
 export default function GlobalNotFound() {
   return (

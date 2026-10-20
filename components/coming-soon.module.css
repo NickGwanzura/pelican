@@ -84,11 +84,11 @@
 .copy h1 {
   margin: 0;
   max-width: 720px;
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: var(--display);
   font-size: clamp(58px, 6.2vw, 100px);
   font-weight: 400;
   line-height: .99;
-  letter-spacing: -.065em;
+  letter-spacing: -.025em;
 }
 
 .copy h1 em {
@@ -140,7 +140,7 @@
 }
 
 .launch :global(.coming-countdown strong) {
-  font: 400 clamp(40px, 5vw, 70px)/1 Georgia, serif;
+  font: 400 clamp(40px, 5vw, 70px)/1 var(--display);
   letter-spacing: -.07em;
   font-variant-numeric: tabular-nums;
 }
@@ -153,7 +153,7 @@
 
 .launch :global(.coming-countdown i) {
   color: var(--gold);
-  font: 34px Georgia, serif;
+  font: 34px var(--display);
   font-style: normal;
 }
 

@@ -18,7 +18,7 @@ export default function NyeredziRidgePage() {
           <div className="project-page-head">
             <div>
               <p className="project-place">{project.location.toUpperCase()} · {project.status.toUpperCase()}</p>
-              <h1>NYEREDZI<br /><span>RIDGE</span></h1>
+              <h1>Nyeredzi<br /><span>Ridge</span></h1>
             </div>
             <p>{project.summary} The development is aimed at buyers seeking a quality, move-in-ready home in a well-located Harare neighbourhood.</p>
           </div>
